@@ -1,0 +1,22 @@
+
+<html> 
+  
+<body> 
+  
+    <p>Click the button to open a new tab </p> 
+  
+
+  <button class="primary-btn text-uppercase" onclick="window.location.href='https://google.com';">
+  <div onclick="openInNewTab();">Something To Click On</div></button>
+  <!-- <button class="primary-btn text-uppercase" onclick="window.location.href='https://google.com';">ENTER HERE</button> -->
+  
+    <script>  
+        function openInNewTab() {
+  var win = window.open("https://www.yahoo.com", '_blank');
+  win.focus();
+}
+    </script> 
+  
+</body> 
+  
+</html> 
